@@ -1,0 +1,45 @@
+
+body {
+    margin-left:50px;
+    width: 500px;
+}
+
+p {
+    display:inline; 
+    margin: 0 10px 0 50px;
+    font-size:20px;
+}
+
+input {margin:0}
+
+#item-grid {
+    list-style-type: none;
+    width: 500px;
+    padding: 0px;
+}
+
+#item-grid li {
+    margin: 0px;
+    padding: 10px 20px;
+    border: 1px solid #000
+}
+
+.strike {
+    text-decoration: line-through;
+}
+
+.checkbox {
+    margin-top:6px;
+}
+
+.hide {
+    display:none;
+}
+
+.listButtons {
+    height:15px; 
+    margin-right:5px;
+    float: right;
+}
+
+.listButtons:hover {cursor:pointer;}
